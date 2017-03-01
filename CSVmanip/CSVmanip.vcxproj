@@ -110,6 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CSVReader.h" />
+    <ClInclude Include="CSVWriter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CSVReader.cpp" />
+    <ClCompile Include="CSVWriter.cpp" />
+    <ClCompile Include="demo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
